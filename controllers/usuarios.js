@@ -62,7 +62,7 @@ const usPost = async(req, res = response) => {
     });
 };
 
-const usDelete = (req, res = response) => {
+const usDelete = async(req, res = response) => {
 
     const {id} = req.params;
     
